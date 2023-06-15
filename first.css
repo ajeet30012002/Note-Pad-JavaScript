@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+}
+.navbar{
+    background-color: rgb(28, 26, 26);
+    border-radius: 10px;
+}
+.navbar ul{
+    height: 13px;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    padding: 3px;
+    /* margin: 0px 15px 0px 15px; */
+    margin: 0px 15px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar li a:hover
+{
+    color: black;
+}
+.navbar ul li:hover
+{
+    background-color:rgb(146, 143, 143);
+}
+#search{
+   float: right;
+   /* margin-left: auto; */
+}
+.material-symbols-outlined{
+    color: aliceblue;
+}
+#search input{
+    border-radius: 10px;
+}
+input::placeholder{
+    text-align: center;
+}
+.Notes{
+    margin: auto;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+    display: block;
+    border: solid black 5px;
+}
+textarea{
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+    border-radius: 10px;
+    resize: none;
+    padding: 2px;
+    border: dashed 2px grey;
+}
+textarea::placeholder{
+    font-family: 'Fira code';
+    font-size: 20px;
+}
+.btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    font-family:fantasy;
+}
